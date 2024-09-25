@@ -1,0 +1,151 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2c9ec;
+}
+.flags-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.flag-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flag {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+
+.flag-mexico {
+    display: flex;
+}
+.mexico-green { background-color: #006847; flex: 1; }
+.mexico-white { background-color: #ffffff; flex: 1; display: flex; justify-content: center; align-items: center; }
+.mexico-red { background-color: #ce1126; flex: 1; }
+.mexico-emblem {
+    font-size: 20px;
+    color: #006847;
+}
+
+
+.flag-usa {
+    background: repeating-linear-gradient(
+        to bottom,
+        #b22234 0%,
+        #b22234 10%,
+        #ffffff 10%,
+        #ffffff 20%
+    );
+    position: relative;
+}
+.flag-usa .stars {
+    background: #3c3b6e;
+    width: 40%;
+    height: 50%;
+    position: absolute;
+}
+
+
+.flag-france {
+    display: flex;
+}
+.france-blue { background-color: #0055a4; flex: 1; }
+.france-white { background-color: #ffffff; flex: 1; }
+.france-red { background-color: #ef4135; flex: 1; }
+
+
+
+.flag-japan {
+    background-color: #ffffff;
+    position: relative;
+}
+.japan-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #bc002d;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 75px;
+}
+
+
+
+.flag-canada {
+    display: flex;
+}
+.canada-red { background-color: #d52b1e; flex: 1; }
+.canada-white { background-color: #ffffff; flex: 2; display: flex; justify-content: center; align-items: center; }
+.maple-leaf { font-size: 30px; color: #d52b1e; }
+
+
+
+.flag-spain {
+    display: flex;
+    flex-direction: column;
+}
+.spain-red { background-color: #c60b1e; height: 25%; }
+.spain-yellow { background-color: #ffc400; height: 50%; }
+
+
+.flag-ukraine {
+    display: flex;
+    flex-direction: column; /* Stack the bands vertically */
+}
+
+.ukraine-blue {
+    background-color: #0057b7; /* Blue band */
+    height: 50%; /* Half the height */
+}
+
+.ukraine-yellow {
+    background-color: #ffd700; /* Yellow band */
+    height: 50%; /* Half the height */
+}
+
+
+.flag-italy {
+    display: flex;
+}
+.italy-green { background-color: #009246; flex: 1; }
+.italy-white { background-color: #ffffff; flex: 1; }
+.italy-red { background-color: #ce2b37; flex: 1; }
+
+
+.flag-congo {
+    display: flex;
+}
+.congo-green { background-color: #007847; flex: 1; }
+.congo-yellow { background-color: #fde234; flex: 1; }
+.congo-red { background-color: #ce1126; flex: 1; }
+
+
+
+.flag-sudan {
+    display: flex;
+    position: relative;
+}
+.sudan-red { background-color: #d71920; flex: 1; }
+.sudan-white { background-color: #ffffff; flex: 1; }
+.sudan-black { background-color: #000000; flex: 1; }
+.sudan-green-triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 100px solid #007a3d;
+    left: 0;
+}
